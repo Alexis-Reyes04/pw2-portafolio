@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="top-bar">
+
+            <div class="hamburguer-buttons" id="menuBtn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <h1>Mi Portafolio</h1>
+
+            <button id="modoBtn">Cambiar Tema</button>
+
+        </div>
+
+        <nav id="menu" class="hidden">
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section id="inicio" class="hero">
+
+        <div>
+
+            <picture>
+
+                <source
+                    srcset="https://picsum.photos/id/0/1300/480"
+                    media="(min-width:1025px)"
+                />
+
+                <source
+                    srcset="https://picsum.photos/id/0/1024/480"
+                    media="(min-width:720px)"
+                />
+
+                <img
+                    src="https://picsum.photos/id/0/480/480"
+                    alt="Imagen de fondo"
+                    class="hero-img"
+                />
+
+            </picture>
+
+        </div>
+
+        <div class="action-panel">
+
+            <img
+                src="Alexis.jpg"
+                alt="Foto de Perfil"
+                class="foto-perfil"
+            >
+
+            <h2>Alexis Yahir Reyes Miralda</h2>
+
+            <p>Ingeniero en Ciencias de la computacion</p>
+
+            <a href="#sobre-mi">Ver más sobre mí</a>
+
+        </div>
+
+    </section>
+
+
+    <main>
+
+
+        <section id="sobre-mi">
+
+            <h2>Biografía</h2>
+
+            <p> 
+                Me llamo Alexis Yahir Reyes Miralda, Soy Estudiante de Ingenieria en la Ciencias de la computacion en la universidad Catolica de Honduras, Campus San Jorge
+                
+                <br><br>
+
+                Me gusta el desarrollo web sus interfaces y colores.
+            </p>
+
+        </section>
+
+
+        <section id="proyectos">
+
+            <h2>Mis Proyectos</h2>
+
+            <div class="contenedor-proyectos">
+
+                <div class="tarjeta">
+                    <h3>Proyecto Restaurante</h3>
+                    <p>Sitio web responsivo para restaurante.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Tienda Online</h3>
+                    <p>Ecommerce desarrollado con HTML y CSS.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Dashboard</h3>
+                    <p>Panel administrativo con JavaScript.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="habilidades">
+
+            <h2>Habilidades</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Diseño Responsivo</li>
+            </ul>
+
+        </section>
+
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <ul>
+                <li>Email: areyesmiralda@gmail.com</li>
+                <li>GitHub: https://github.com/Alexis-Reyes04</li>
+                <li>cel: 95176522</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>© 2026 - Portafolio Web Alexis Reyes</p>
+
+    </footer>
+
+    <script src="perfil.js"></script>
+
+</body>
+</html>
